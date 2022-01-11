@@ -1,13 +1,14 @@
 [package]
-name = "neon-serde2"
-version = "0.8.0"
+name = "neon-serde3"
+version = "0.9.1"
 authors = [
     "Damir Jelić <poljar@termina.org.uk>",
-    "Gabriel Castro <dev@GabrielCastro.ca>"
+    "Gabriel Castro <dev@GabrielCastro.ca>",
+    "Colin Fruit <17092461+colinfruit@users.noreply.github.com>"
 ]
 description = "Easily serialize object for use with neon, fork of neon-serde"
 license = "MIT"
-repository = "https://github.com/matrix-org/neon-serde"
+repository = "https://github.com/colinfruit/neon-serde"
 readme = "readme.md"
 
 [dependencies]
@@ -15,7 +16,7 @@ serde = "1.0"
 error-chain = "0.12.4"
 
 [dependencies.neon]
-version = "0.8"
+version = "0.9.1"
 default-features = false
 features = ["default-panic-hook", "napi-6", "try-catch-api", "event-queue-api"]
 
